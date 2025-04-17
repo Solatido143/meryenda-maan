@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div>
         <Navbar />
 
@@ -16,8 +16,8 @@
 </template>
 
 <script setup>
-import Navbar from "./layout/Navbar.vue";
-import Footer from "./layout/Footer.vue";
+import Navbar from "./layouts/Navbar.vue";
+import Footer from "./layouts/Footer.vue";
 
 const snacks = [
     { id: 1, name: "Turon" },
@@ -25,4 +25,13 @@ const snacks = [
     { id: 3, name: "Kwek-kwek" },
     { id: 4, name: "Fishball" },
 ];
+</script> -->
+
+<template>
+    <Main/>
+</template>
+
+<script setup>
+import Main from "./layouts/Main.vue";
+
 </script>
