@@ -13,7 +13,7 @@
         <!-- Styles / Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body>
+    <body class="bg-red-900">
         <div id="app"></div>
     </body>
 </html>
