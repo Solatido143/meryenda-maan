@@ -1,10 +1,9 @@
 <style scoped></style>
 
 <template>
-    <Main/>
+    <router-view></router-view>
 </template>
 
 <script setup>
-import Main from "./layouts/Main.vue";
 
 </script>
