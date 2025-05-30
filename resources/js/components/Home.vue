@@ -1,12 +1,11 @@
-<style scoped>
-
-</style>
+<style scoped></style>
 
 <template>
-    <Main/>
+    <div class="bg-red-500">
+        <Main />
+    </div>
 </template>
 
 <script setup>
 import Main from "./layouts/Main.vue";
-
 </script>
