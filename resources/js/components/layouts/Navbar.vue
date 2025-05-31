@@ -1,11 +1,4 @@
 <script setup>
-import { onMounted } from "vue";
-import { initFlowbite } from "flowbite";
-
-// initialize components based on data attribute selectors
-onMounted(() => {
-    initFlowbite();
-});
 </script>
 
 <template>
@@ -74,7 +67,7 @@ onMounted(() => {
                                 type="search"
                                 id="default-search"
                                 class="block w-full p-1 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
-                                placeholder="Search Mockups, Logos..."
+                                placeholder="Search"
                                 required
                             />
                         </div>

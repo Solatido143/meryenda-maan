@@ -3,15 +3,12 @@ import "flowbite";
 
 import { createApp } from "vue";
 import { createRouter, createWebHistory } from "vue-router";
+
 import App from "./components/App.vue";
-import Home from "./components/Home.vue";
-import Login from "./components/Login.vue";
+import Dashboard from "./components/Dashboard.vue";
 
 // Define routes
-const routes = [
-    { path: "/", component: Home },
-    { path: "/login", component: Login },
-];
+const routes = [{ path: "/dashboard", component: Dashboard }];
 
 // Create router instance
 const router = createRouter({

@@ -1,9 +1,14 @@
-<style scoped></style>
+<script setup>
+import { onMounted } from "vue";
+import { initFlowbite } from "flowbite";
+
+onMounted(() => {
+    initFlowbite();
+});
+</script>
 
 <template>
     <router-view></router-view>
 </template>
 
-<script setup>
-
-</script>
+<style scoped></style>
