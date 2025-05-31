@@ -1,11 +1,13 @@
 <style scoped></style>
 
 <template>
-    <div class="bg-red-500">
+    <div>
         <Main />
+        <!-- <TestingSidewNav /> -->
     </div>
 </template>
 
 <script setup>
 import Main from "./layouts/Main.vue";
+import TestingSidewNav from "./layouts/TestingSidewNav.vue"
 </script>

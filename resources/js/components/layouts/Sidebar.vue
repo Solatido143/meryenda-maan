@@ -49,7 +49,7 @@
                             >Kanban</span
                         >
                         <span
-                            class="inline-flex items-center justify-center px-2 ms-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full"
+                            class="inline-flex items-center justify-center px-2 ms-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full group-hover:bg-blue-100"
                             >Pro</span
                         >
                     </a>
